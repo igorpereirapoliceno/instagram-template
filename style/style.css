@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.flex {
+    display: flex;
+}
+.j-cent{
+    justify-content: center;
+}
+.s-between {
+    justify-content: space-between;
+}
+.a-cent{
+    align-items: center; 
+}
+.topo {
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+}
+.teste {
+    background-color: brown;
+    width: 80vw; 
+}
+img {
+    height: 40px;
+    width: 40px;
+}
