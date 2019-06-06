@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: rgb(247, 247, 247);
 }
 .flex {
     display: flex;
@@ -17,13 +18,47 @@
 .topo {
     width: 100vw;
     height: 10vh;
-    background-color: aqua;
+    background-color: white;
+    border: 1px solid rgb(192, 191, 191);
 }
-.teste {
-    background-color: brown;
-    width: 80vw; 
+.topo * {
+    background-color: white;
+    
+}
+.margin-top {
+    margin-top: 80px;
+}
+.box {
+    width: 70vw; 
+}
+.box-1 {
+    width: 50vw;
+    margin: 5px
+}
+.box-2 {
+    width: 15vw;
+    margin: 5px;
+}
+.pesquisa img {
+    height: 12px;
+    width: 12px;
+}
+.lista li {
+    padding: 10px;
+    list-style-type: none;
+}
+.conteudo {
+    border: 2px solid black;
+}
+.hist {
+    border: 2px solid black;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 img {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }
