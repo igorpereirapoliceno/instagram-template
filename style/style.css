@@ -15,11 +15,13 @@
 .a-cent{
     align-items: center; 
 }
+.j-end {
+    justify-content: flex-end;
+}
 .topo {
     width: 100vw;
     height: 10vh;
     background-color: white;
-    border: 1px solid rgb(192, 191, 191);
 }
 .topo * {
     background-color: white;
@@ -32,34 +34,60 @@
     width: 70vw; 
 }
 .box-1 {
+    font-size: 13px;
     width: 50vw;
     margin: 5px;
-    background-image: url(./img)
 }
 .box-2 {
     width: 15vw;
     margin: 5px;
 }
-.pesquisa img {
-    height: 12px;
-    width: 12px;
+.pesquisa input {
+    background-image: url(../img/searchmagnifierinterfacesymbol1_79893.png);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position:right;
 }
 .lista li {
-    padding: 10px;
+    padding: 5px;
     list-style-type: none;
-}
-.conteudo {
-    border: 2px solid black;
 }
 .hist {
     border: 2px solid black;
+}
+.tamanho {
+    height: 70px;
+    width: 50vw;
+}
+.topo img {
+    height: 30px;
+    width: 30px;
+}
+.conteudo img {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+.ponto img {
+    height: 20px;
+    width: 20px;
+}
+.border {
+    border: 1px solid rgb(192, 191, 191);
+}
+.box-1 h2 {
+    margin-left: 8px;
 }
 section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-img {
-    height: 30px;
-    width: 30px;
+@media screen and (max-width:768px) {
+    .pesquisa {
+        display: none;
+    }
+    .box-2 {
+        display: none;
+    }
 }
